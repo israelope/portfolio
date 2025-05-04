@@ -3,7 +3,6 @@
 import { cn } from "@/lib/utils";
 import { ReactNode, useEffect, useRef, useState } from "react";
 
-// ✅ Step 1: Define prop types
 interface BackgroundGradientAnimationProps {
   gradientBackgroundStart?: string;
   gradientBackgroundEnd?: string;
@@ -21,8 +20,7 @@ interface BackgroundGradientAnimationProps {
   interactive?: boolean;
 }
 
-// ✅ Step 2: Apply prop types in component
-export const BackgroundGradientAnimation = ({
+const BackgroundGradientAnimation = ({
   gradientBackgroundStart = "rgb(108, 0, 162)",
   gradientBackgroundEnd = "rgb(0, 17, 82)",
   firstColor = "18, 113, 255",
@@ -156,3 +154,5 @@ export const BackgroundGradientAnimation = ({
     </div>
   );
 };
+
+export default BackgroundGradientAnimation;
