@@ -2,16 +2,20 @@
 
 import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 
-// Dynamically import heavy components
-const Hero = dynamic(() => import('@/components/Hero'));
-const Grid = dynamic(() => import('@/components/Grid'));
-const Footer = dynamic(() => import('@/components/Footer'));
-const Clients = dynamic(() => import('@/components/Clients'));
-const Approach = dynamic(() => import('@/components/Approach'));
-const Experience = dynamic(() => import('@/components/Experience'));
-const RecentProjects = dynamic(() => import('@/components/RecentProjects'));
+// Force these to load ONLY in the browser
+const Hero = dynamic(() => import("@/components/Hero"), { ssr: false });
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
+const Clients = dynamic(() => import("@/components/Clients"), { ssr: false });
+const Approach = dynamic(() => import("@/components/Approach"), { ssr: false });
+const Experience = dynamic(() => import("@/components/Experience"), {
+  ssr: false,
+});
+const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
