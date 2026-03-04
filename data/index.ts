@@ -79,12 +79,20 @@ export const projects = [
     link: "https://enchanting-concha.netlify.app/",
   },
   {
+    id: 6,
+    title: "High-End Furniture Showcase with React",
+    des: "A polished, responsive online showroom built with React, featuring clean UI/UX, modular components, and fluid navigation, designed to spotlight premium furniture collections, product details, and ambient visuals in style..",
+    img: "/nexux.png",
+    iconLists: ["/html5.svg", "/css3.svg", "/javascript.svg"],
+    link: "https://nexus-furniture-mrnx.vercel.app/",
+  },
+  {
     id: 2,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/iphone.jpg",
+    title: "Animated Developer Portfolio",
+    des: "A sleek, responsive personal portfolio built with React, showcasing clean UI/UX, component-based architecture, and smooth navigation to highlight skills and projects effectively.",
+    img: "/portfolio2.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://charming-cannoli.netlify.app/",
+    link: "https://anointed1.netlify.app/",
   },
   {
     id: 3,
@@ -110,14 +118,7 @@ export const projects = [
     iconLists: ["/html5.svg", "/css3.svg", "/javascript.svg", "/gsap.svg"],
     link: "https://anointed1.netlify.app/",
   },
-  {
-    id: 6,
-    title: "E-commerce Landing Page for Foodstuffs Orders",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/e-commerce.jpg",
-    iconLists: ["/html5.svg", "/css3.svg", "/javascript.svg"],
-    link: "https://delicacy-home.netlify.app/",
-  },
+  
 ];
 
 export const testimonials = [
