@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaDownload } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -31,8 +31,9 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-100">
-            Anointed<span className="text-yellow-400">1</span>: Bringing designs to life
+          <p className="uppercase tracking-widest text-xl text-center text-blue-100 max-w-100">
+            Anointed<span className="text-yellow-400">1</span>: Bringing designs
+            to life
           </p>
 
           <TextGenerateEffect
@@ -41,13 +42,25 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Oloyede Israel, a Full-Stack Developer based in Nigeria.
+            Hi! I&apos;m Oloyede Israel, a Full-Stack Developer based in
+            Nigeria.
           </p>
 
           <a href="#about">
             <MagicButton
-              title="Show my work"
+              title="View my Projects"
               icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+
+          <a
+            href="/Oloyede_Israel_Frontend_Developer_CV.pdf"
+            download="Oloyede_Israel_Frontend_Developer_CV.pdf"
+          >
+            <MagicButton
+              title="Download Resume"
+              icon={<FaDownload />}
               position="right"
             />
           </a>

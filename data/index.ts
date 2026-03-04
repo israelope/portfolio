@@ -139,7 +139,7 @@ export const projects = [
     des: "A clean, modern photography website built to showcase creative work, capture client leads, and book shoots. Features include a dynamic gallery, service breakdown, and contact form, designed for a top-tier photographer in Ibadan...",
     img: "/paragon.png",
     iconLists: ["/html5.svg", "/css3.svg", "/javascript.svg", "/gsap.svg"],
-    link: "http://paragonsnap.netlify.app/",
+    link: "http://paragonsnap.netlify.app",
   },
 ];
 
