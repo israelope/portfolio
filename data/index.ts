@@ -79,15 +79,38 @@ export const projects = [
     link: "https://enchanting-concha.netlify.app/",
   },
   {
-    id: 6,
+    id: 2,
     title: "High-End Furniture Showcase with React",
     des: "A polished, responsive online showroom built with React, featuring clean UI/UX, modular components, and fluid navigation, designed to spotlight premium furniture collections, product details, and ambient visuals in style..",
     img: "/nexux.png",
-    iconLists: ["/html5.svg", "/css3.svg", "/javascript.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/fm.svg",
+      "/gsap.svg",
+    ],
     link: "https://nexus-furniture-mrnx.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
+    title: "A Luxury Transportation Company Website",
+    des: "RogerBooking is a modern transportation company redefining how people move in Ibadan and across Oyo State. Whether you need a quick ride across town, scheduled pickups, or VIP transport services, we offer comfort, safety, and reliability, all at your fingertips...",
+    img: "/roger.png",
+    iconLists: ["/html5.svg", "/css3.svg", "/javascript.svg"],
+    link: "https://rogerbookings.netlify.app",
+  },
+  {
+    id: 4,
+    title: "A Food-Ordering Website",
+    des: "An easy-to-use online platform for ordering authentic Nigerian fast foods from Sharwarma & small chops to drinks. Built with React for a smooth and responsive user experience, tailored to the food culture of Campus life...",
+    img: "/sanwo.png",
+    iconLists: ["/html5.svg", "/css3.svg", "/javascript.svg"],
+    link: "http://sanwochops.netlify.app",
+  },
+  {
+    id: 5,
     title: "Animated Developer Portfolio",
     des: "A sleek, responsive personal portfolio built with React, showcasing clean UI/UX, component-based architecture, and smooth navigation to highlight skills and projects effectively.",
     img: "/portfolio2.jpg",
@@ -95,7 +118,7 @@ export const projects = [
     link: "https://anointed1.netlify.app/",
   },
   {
-    id: 3,
+    id: 6,
     title: "A 3D Gaming Website Using Next.js",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/experience.jpg",
@@ -103,7 +126,7 @@ export const projects = [
     link: "https://roaring-biscuit.netlify.app/",
   },
   {
-    id: 4,
+    id: 7,
     title: "A Sneakers Ordering Website Landing Page",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/comlab stores.jpg",
@@ -111,14 +134,13 @@ export const projects = [
     link: "https://comlabstores.netlify.app/",
   },
   {
-    id: 5,
-    title: "Portfolio Design Using HTML CSS and Javascript Framework",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/anointed1.jpg",
+    id: 8,
+    title: "A Professional Photographer Digital Portfolio",
+    des: "A clean, modern photography website built to showcase creative work, capture client leads, and book shoots. Features include a dynamic gallery, service breakdown, and contact form, designed for a top-tier photographer in Ibadan...",
+    img: "/paragon.png",
     iconLists: ["/html5.svg", "/css3.svg", "/javascript.svg", "/gsap.svg"],
-    link: "https://anointed1.netlify.app/",
+    link: "http://paragonsnap.netlify.app/",
   },
-  
 ];
 
 export const testimonials = [
